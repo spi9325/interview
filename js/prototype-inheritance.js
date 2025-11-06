@@ -12,3 +12,5 @@ const p3= {
 }
 
 console.log(p3.name2) 
+
+

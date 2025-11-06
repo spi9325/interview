@@ -27,9 +27,9 @@ const obj2 = {
 
 const deep = JSON.parse(JSON.stringify(obj2))
 const deepCopy = structuredClone(obj);
- deep.name="hii"
- deep.add.location="hii"
+//  deep.name="hii"
+//  deep.add.location="hii"
 
- console.log(obj2)
+//  console.log(obj2)
  console.log(deep)
 
