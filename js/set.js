@@ -22,8 +22,8 @@
 // #################### map ##########
 
 
-// const map = new Map([['key1','val1']]) 
-// console.log(map)  // Map(1) { 'key1' => 'val1' }
+const map = new Map([['key1','val1'],['key1','val1']]) 
+console.log(map)  // Map(1) { 'key1' => 'val1' }
 // console.log(map.get('key1'))  // val1
 // console.log(map.set('key2','val2'))  // Map(2) { 'key1' => 'val1', 'key2' => 'val2' }
 // console.log(map.clear())  // undefined or {}
