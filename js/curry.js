@@ -6,6 +6,13 @@ function curriedAdd(a) {
   };
 }
 
+// also 
+function curry(a){
+  return function (b){
+    if(b) curry(a*b)
+     return a 
+  }
+}
 // console.log(curriedAdd(1)(2)(3)); // Output: 6
 
 

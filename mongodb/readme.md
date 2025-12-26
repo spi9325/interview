@@ -90,3 +90,23 @@ const UserSchema = new mongoose.Schema({
     }
   }
 });
+
+
+<!-- insert many -->
+
+const val = [
+  { name : "spi" }
+  { name : "spi2" }
+  { name : "spi3" }
+]
+
+user.insertMany( val )
+
+
+<!-- capped collection -->
+
+db.createCollection("logs", {
+  capped: true,
+  size: 1024 * 1024,  // 1MB
+  max: 5000           // optional: max number of documents
+});
